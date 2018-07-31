@@ -1,4 +1,9 @@
 import React from 'react';
-const App = () => ( <h1>asdf</h1>);
+import TodoListContainer from './todos/todo_list_container';
+const App = () => ( <div className="app">
+                    <h1>Hello world</h1>
+                    <TodoListContainer />
+                    </div>
+                  );
 
 export default App;
